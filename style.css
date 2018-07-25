@@ -1,0 +1,31 @@
+nav {
+  /* I need to be flexed. */
+  display: flex;
+  /* I need to align my children vertically. */
+  align-items: center;
+  /* I need to justify my children so the logo is on the left and the links are on the right. */
+  justify-content: space-between;
+  height: 50px;
+  background-color:grey;
+}
+
+.name {
+  padding-left: 4px;
+}
+
+.navPills {
+  /* I need to be flexed. */
+  display: flex;
+  /* I need to align my children vertically. */
+  align-items: center;
+}
+
+body {
+  font-size: 20px;
+  color: black;
+}
+
+.flex-container {
+  display: flex;
+  background-color:oldlace;
+}
